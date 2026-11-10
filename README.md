@@ -82,7 +82,7 @@ Sales nearly double in Sep–Nov (35% of yearly revenue), and 20% of products ma
 
 - The data has no cost or margin, so this is a **revenue** analysis, not profit.
 - There is no delivery or stock data, so stockouts can't be measured directly; the next step is to join stock levels.
-- About 25% of rows had no CustomerID and were removed; their sales are not in the customer numbers.
+- About 25% of rows had no CustomerID (the reason isn't recorded in the data). I removed them for the whole analysis; a better approach is to keep them for product, month and country revenue, and drop them only for customer metrics like repeat rate.
 - Next: RFM customer segmentation and month-by-month cohort retention.
 
 ## 10. Files
