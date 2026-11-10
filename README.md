@@ -55,7 +55,7 @@ Public "Online Retail" dataset (UCI Machine Learning Repository). Prices are in 
 1. **Sep–Nov is the peak.** Revenue rises from £0.95M (Sep) to £1.04M (Oct) to £1.16M (Nov), about 2x a quiet month like Feb (£0.45M). These 3 months bring in £3.15M, **35% of the year**. (Dec 2011 only has data up to 9 Dec.)
 2. **A few products carry the business.** The top **20% of products (775 of 3,877) generate 79% of revenue**, a clear 80/20 (Pareto) pattern. Missing stock on these items costs the most.
 3. **The UK is 82% of revenue.** The next markets are small: Netherlands 3.2%, Ireland 3.0%, Germany 2.6%, France 2.3%.
-4. **Orders come in office hours.** 10 am–3 pm brings **77% of revenue**; there are no orders on Saturdays. This matches a shop that sells a lot to business buyers.
+4. **Orders come in office hours.** 10 am–4 pm brings **77% of revenue**; there are no orders on Saturdays. This matches a shop that sells a lot to business buyers.
 5. **Customers come back.** **66% of customers ordered more than once**, so keeping customers matters as much as finding new ones.
 
 ## 6. Recommendations
@@ -65,7 +65,7 @@ Public "Online Retail" dataset (UCI Machine Learning Repository). Prices are in 
 | Order peak stock for the top 20% of products by end of July | they make 79% of revenue, and Sep–Nov is 35% of the year | weekly sales vs stock for these products from August |
 | Plan stock and staff for a 2x month from September | Sep–Nov revenue is about 2x a quiet month | stockouts and late orders in Sep–Nov |
 | Test small marketing pushes in Netherlands, Ireland and Germany | they are the largest markets after the UK (3.2%, 3.0%, 2.6%) | revenue and new customers per country |
-| Send promotions on weekdays between 10 am and 3 pm | 77% of revenue arrives in that window | email open and order rate by send time |
+| Send promotions on weekdays between 10 am and 4 pm | 77% of revenue arrives in that window | email open and order rate by send time |
 
 ## 7. Executive summary
 
